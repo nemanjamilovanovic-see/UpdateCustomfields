@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build EXE with PyInstaller",
+			"type": "shell",
+			"command": "pyinstaller",
+			"args": [
+				"--clean",
+				"--noconsole",
+				"--name",
+				"UpdateInvoiced",
+				"--distpath",
+				"dist",
+				"--workpath",
+				"build",
+				"UpdateInvoiced.spec"
+			],
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		}
+	]
+}

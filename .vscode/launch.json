@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Run GUI (UpdateInvoiced.py)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/UpdateInvoiced.py",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "env": {}
+    },
+    {
+      "name": "Python: Attach (debugpy 5678)",
+      "type": "debugpy",
+      "request": "attach",
+      "connect": { "host": "localhost", "port": 5678 },
+      "justMyCode": true
+    }
+  ]
+}
