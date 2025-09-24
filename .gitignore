@@ -14,8 +14,7 @@ dist/
 
 # Re-include the shipped Windows binary and its runtime folder
 !dist/UpdateCustomfields/
-!dist/UpdateCustomfields/UpdateCustomfields/
-!dist/UpdateCustomfields/UpdateCustomfields/**
+!dist/UpdateCustomfields/**
 
 # Installer logs
 pip-log.txt
