@@ -1,8 +1,0 @@
-sp_url: http://sp
-user_domain: PEXIMBG
-live_url: https://livesd.asseco-see.rs/live20Rest/
-concurrency: 10
-connect_timeout: 10
-search_read_timeout: 30
-save_read_timeout: 120
-retry_backoff_s: 0.3

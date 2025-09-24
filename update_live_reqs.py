@@ -420,7 +420,7 @@ if __name__ == '__main__':
     # Basic console logging configuration for CLI runs
     logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
 
-    conf_name = Path('updateinvoiced.yaml')
+    conf_name = Path('updatecustomfields.yaml')
 
     if conf_name.is_file():
         conf = load_conf(conf_name)

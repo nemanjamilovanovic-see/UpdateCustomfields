@@ -2,10 +2,10 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Python: Run GUI (UpdateInvoiced.py)",
+      "name": "Python: Run GUI (UpdateCustomfields.py)",
       "type": "debugpy",
       "request": "launch",
-      "program": "${workspaceFolder}/UpdateInvoiced.py",
+      "program": "${workspaceFolder}/UpdateCustomfields.py",
       "console": "integratedTerminal",
       "justMyCode": true,
       "env": {}

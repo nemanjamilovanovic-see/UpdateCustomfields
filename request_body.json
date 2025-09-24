@@ -1,9 +1,0 @@
-{
-    "application": "CPM",
-    "method": "getTopic",
-    "parameters": {
-        "recordData": {
-            "id": 10503
-        }
-    }
-}
